@@ -138,7 +138,7 @@ void TOrder( TreeNodePtr treePtr ,int l)
       TOrder( treePtr->rightPtr,l+1); //Recursion to the left
       for(int i=0;i<l;i++)
       {
-         printf("    ");
+         printf("   ");
       }
       printf("%3d\n",treePtr->data) ;  //print the value
    
